@@ -28,8 +28,8 @@ Along with VS Code, you should install the following VS Code extensions:
 * Linux
     * Simple! Just use the Python version that comes with the Linux distro of your choice.
 
-
-
+### Practice Problems
+* [W3Resources Practice Problems](https://www.w3resource.com/python-exercises/)
 <!---
 ## Miscellaneous
 Check the resources folder of this repository for extra learning resources!
