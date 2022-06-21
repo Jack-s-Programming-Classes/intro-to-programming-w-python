@@ -32,11 +32,4 @@ Along with VS Code, you should install the following VS Code extensions:
 * [W3Resources Practice Problems](https://www.w3resource.com/python-exercises/)
 
 ### Resources
-* [Python Cheatsheet](https://jack-of-all-trades.notion.site/Python-Cheatsheet-8549f6b6846f4c2cb4d69729cb030465)
-<!---
-## Miscellaneous
-Check the resources folder of this repository for extra learning resources!
-It contains juicy information like:
-* cheatsheets
-* code examples
-* more! >
+* [Python Cheatsheet](https://www.pythoncheatsheet.org/)
