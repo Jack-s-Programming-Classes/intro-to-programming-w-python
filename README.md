@@ -34,6 +34,7 @@ Along with VS Code, you should install the following VS Code extensions:
 * [W3Resources Practice Problems](https://www.w3resource.com/python-exercises/)
 * [Baekjoon Python PSet](https://www.acmicpc.net/workbook/view/459)
 * [PYnative Practice Problems](https://pynative.com/python-exercises-with-solutions/)
+* [CodingBat Code Practice](https://codingbat.com/python)
 
 ### Reference
 * [pythoncheatsheet.org](https://www.pythoncheatsheet.org/)
