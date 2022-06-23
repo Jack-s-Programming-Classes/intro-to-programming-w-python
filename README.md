@@ -38,6 +38,7 @@ Along with VS Code, you should install the following VS Code extensions:
 
 ### Reference
 * [pythoncheatsheet.org](https://www.pythoncheatsheet.org/)
+* [Jack's "quick python" Cheatsheet](https://jack-of-all-trades.notion.site/quick-python-98f59fa403234ea286ee7676eb527e92)
 * [Official Python 3 Docs](https://docs.python.org/3/reference/)
 * [PEP 8 - Python Style Guide](https://peps.python.org/pep-0008/)
 
