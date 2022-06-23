@@ -28,8 +28,14 @@ Along with VS Code, you should install the following VS Code extensions:
 * Linux
     * Simple! Just use the Python version that comes with the Linux distro of your choice.
 
+## Resources
+
 ### Practice Problems
 * [W3Resources Practice Problems](https://www.w3resource.com/python-exercises/)
+* [Baekjoon Python PSet](https://www.acmicpc.net/workbook/view/459)
+* [PYnative Practice Problems](https://pynative.com/python-exercises-with-solutions/)
 
-### Resources
-* [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+### Reference
+* [pythoncheatsheet.org](https://www.pythoncheatsheet.org/)
+* [Official Python 3 Docs](https://docs.python.org/3/reference/)
+* [PEP 8 - Python Style Guide](https://peps.python.org/pep-0008/)
