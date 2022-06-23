@@ -39,3 +39,11 @@ Along with VS Code, you should install the following VS Code extensions:
 * [pythoncheatsheet.org](https://www.pythoncheatsheet.org/)
 * [Official Python 3 Docs](https://docs.python.org/3/reference/)
 * [PEP 8 - Python Style Guide](https://peps.python.org/pep-0008/)
+
+### Useful Libraries
+* [NumPy](https://numpy.org/doc/stable/)
+* [Pillow/PIL - Python Imaging Library](https://pillow.readthedocs.io/en/stable/?badge=latest)
+* [pygame](https://www.pygame.org/docs/)
+
+### Miscellaneous
+* [Python Tutor - code visualization (diagrams)](https://pythontutor.com/)
