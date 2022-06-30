@@ -2,7 +2,7 @@
 
 We will write a python program that can encode and decode caesar ciphers. According to [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher), the Caesar cipher “is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.”
 
-We will have 3 files: `[main.py](http://main.py)`, `caesar.py`, and `test.py`. 
+We will have 3 files: `main.py`, `caesar.py`, and `test.py`. 
 
 - `main.py` will be the file that we will run to interact with the caesar cipher program through a text interface. You will implement a text user interface here that lets the user encode, decode, and brute force messages as they please.
 - `caesar.py` is the module where you implement the inner workings of the caesar cipher encode, decode, etc. functionality in the `caesar` class.
