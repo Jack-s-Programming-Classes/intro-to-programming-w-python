@@ -1,2 +1,4 @@
 caesar/__pycache__/
 caesar/main_written.py
+.DS_Store
+*/.DS_Store
