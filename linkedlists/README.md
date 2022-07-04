@@ -48,7 +48,7 @@ Here are the things that must be implemented. Think about what is needed before 
     - `__repr__(self)`
         - when `print()` is called on this object, it prints a representative string that shows what this instance is.
         - **input:** void
-        - **output:** `string` (in the form **“<caesarCipher object at 0x106caaee0, shift +3>”** where 0x106caaee0 is replaced by the actual memory location of object, and +3 with the actual shift number of this caesarCipher instance.)
+        - **output:** `string` (in the form **“<linkedlist object at 0x106caaee0, [1,2,3,4,5]>”** where 0x106caaee0 is replaced by the actual memory location of object, and [1,2,3,4,5] with the actual list representation of your linked list.)
 
 # Testing
 
