@@ -1,4 +1,4 @@
-# caesarCipher.py -- the module implements the caesar cipher
+# caesar.py -- the module implements the caesar cipher
 
 class caesar:
     
