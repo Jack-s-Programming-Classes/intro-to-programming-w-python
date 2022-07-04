@@ -13,7 +13,7 @@ We will have 3 files: `linkedlist.py`, and `test.py`.
 
 Here are the things that must be implemented. Think about what is needed before you start writing the code! Use only what you need, or your code might become cluttered. Also, make sure to give your variables names that are easy to understand.
 
-### `class Node`
+### `class node`
 
 - member variables
     - `self.value`  - the value that this node is storing
@@ -24,7 +24,7 @@ Here are the things that must be implemented. Think about what is needed before 
         - **input:** `value` (default = None), can be any datatype
         - **output:** void
     - `__repr__(self)`
-        - when `print()` is called on this object, it prints a representative string that shows what this instance is.
+        - when `print()` is called on this object, it prints a representative string that shows what this instance is. 
         - **input:** void
         - **output:** `whatever datatype self.value is`
 
@@ -33,22 +33,22 @@ Here are the things that must be implemented. Think about what is needed before 
 - member variables
     - `head`  - the first node of the list
 - methods
-    - `__init__(self, shift_val=0)`
-        - initializes a caesarCipher class instance, is an identity map by default (`_shift = 0`)
-        - **input:** `int shift_val` (default =0)
+    - `__init__(self, head = None)`
+        - initializes a linkedlist class instance
+        - **input:** `node head' (default = None)
         - **output:** void
     - `insert(self, value, index=None)`
-        - encodes input ciphertext
-        - **input:** `string plaintext`
-        - **output:** `string`
+        - inserts a value into the specified index location in the list. if index not provided, insert value at the end of the list. **if index is out of range, throw an exception! use references found below to learn how to throw exceptions, and also how to test for them.**
+        - **input:** `any value`, `int index` (default = None)
+        - **output:** void
     - `pop(self, index=None)`
-        - decodes input ciphertext
-        - **input:** `string ciphertext`
-        - **output:** `string`
+        - **returns**, then removes value from specified location in the list. if index not provided, return then remove value at the end of the list. **if index is out of range or the list is empty, throw an exception! use references found below to learn how to throw exceptions, and also how to test for them.**
+        - **input:** `int index` (default = None)
+        - **output:** `the value stored in location`
     - `__repr__(self)`
         - when `print()` is called on this object, it prints a representative string that shows what this instance is.
         - **input:** void
-        - **output:** `string` (in the form **“<caesarCipher object at 0x106caaee0, shift +3>”** where 0x106caaee0 is replaced by the actual memory location of object, and +3 with the actual shift number of this caesarCipher instance.)
+        - **output:** `string` (in the form **“<linkedlist object at 0x106caaee0, [1,2,3,4,5]>”** where 0x106caaee0 is replaced by the actual memory location of object, and [1,2,3,4,5] with the actual list representation of your linked list.)
 
 # Testing
 
@@ -60,11 +60,9 @@ You are responsible for making sure your program works correctly!!
 
 # Helpful Resources
 
-Reference for data structures that might help with implementation
-
-- [python enumerations](https://docs.python.org/3/library/enum.html?highlight=enum)
-- [python dictionaries](https://docs.python.org/3/tutorial/datastructures.html?highlight=dictionaries#dictionaries)
-
 Misc reference
 
 - [python unittest module docs](https://docs.python.org/3/library/unittest.html)
+- [python exceptions](https://docs.python.org/3/tutorial/errors.html)
+- [python try-except block / handling exceptions](https://docs.python.org/3/tutorial/errors.html#handling-exceptions)
+
