@@ -21,7 +21,7 @@ Here are the things that must be implemented. Feel free to whatever other variab
     - `_alphabet` - the list of characters we will use (order will probably matter in your implementation)
 - methods
     - `__init__(self, shift_val=0, ignore_foreign_char=True, ignore_case=True)`
-        - initializes a caesarCipher class instance, is an identity map by default (`_shift = 0`). Takes additional arguments ignore_foreign_char and ignore_case. ignore_foreign_char sets whether one should ignore chars not included in `self._alphabet`, including white spaces unless explicitly included in `self._alphabet`. if ignore_case is true, then the resulting ciphertext will be lower case no matter what the plaintext case is. 
+        - initializes a caesar class instance, which is an identity map by default (`_shift = 0`). takes additional arguments ignore_foreign_char and ignore_case. ignore_foreign_char sets whether one should ignore chars not included in `self._alphabet`, including white spaces unless explicitly included in `self._alphabet`. if ignore_case is true, then the resulting ciphertext will be lower case no matter what the plaintext case is. 
         - **input:** `int shift_val` (default=0), `bool ignore_foreign_char` (default=True), `bool ignore_case` (default=True)
         - **output:** void
     - `encode(self, plaintext)`
