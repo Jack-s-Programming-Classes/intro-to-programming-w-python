@@ -6,7 +6,12 @@
 class enigma:
     pass
 
+
+# there are three types of rotors
 class rotor:
+    pass
+
+class reflector(rotor):
     pass
 
 class plugboard:

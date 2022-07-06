@@ -33,9 +33,9 @@ Here are the things that must be implemented. Feel free to whatever other variab
         - **input:** `string ciphertext`
         - **output:** `string`
     - `brute_force(self, ciphertext)`
-        - allows for brute forcing by returning all 26 possible combinations of the input string.
+        - allows for brute forcing by returning a list of all 26 possible combinations of the input string.
         - **input:** `string ciphertext`
-        - **output:** void
+        - **output:** `list` (of strings)
     - `set_shift(self, new_shift_val)`
         - updates the `self._shift` value to new values
         - **input:** `int new_shift_val`
