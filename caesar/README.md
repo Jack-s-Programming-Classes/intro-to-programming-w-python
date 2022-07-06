@@ -18,10 +18,11 @@ Here are the things that must be implemented. Feel free to whatever other variab
 
 - member variables
     - `_shift`  - the amount of characters we will be shifting
+    - `_alphabet` - the list of characters we will use (order will probably matter in your implementation)
 - methods
-    - `__init__(self, shift_val=0)`
-        - initializes a caesarCipher class instance, is an identity map by default (`_shift = 0`)
-        - **input:** `int shift_val` (default =0)
+    - `__init__(self, shift_val=0, ignore_foreign_char=True, ignore_case=True)`
+        - initializes a caesarCipher class instance, is an identity map by default (`_shift = 0`). Takes additional arguments ignore_foreign_char and ignore_case. ignore_foreign_char sets whether one should ignore chars not included in `self._alphabet`, including white spaces unless explicitly included in `self._alphabet`. if ignore_case is true, then the resulting ciphertext will be lower case no matter what the plaintext case is. 
+        - **input:** `int shift_val` (default=0), `bool ignore_foreign_char` (default=True), `bool ignore_case` (default=True)
         - **output:** void
     - `encode(self, plaintext)`
         - encodes input ciphertext
@@ -32,7 +33,7 @@ Here are the things that must be implemented. Feel free to whatever other variab
         - **input:** `string ciphertext`
         - **output:** `string`
     - `brute_force(self, ciphertext)`
-        - allows for brute forcing by **printing** all 26 possible combinations of the input string.
+        - allows for brute forcing by returning all 26 possible combinations of the input string.
         - **input:** `string ciphertext`
         - **output:** void
     - `set_shift(self, new_shift_val)`
@@ -44,13 +45,13 @@ Here are the things that must be implemented. Feel free to whatever other variab
         - **input:** void
         - **output:** `int`
     - `__repr__(self)`
-        - when `print()` is called on this object, it prints a representative string that shows what this instance is.
+        - when `print()` is called on this object, it prints a representative string that shows what this instance is. the repr string is in the form **“<caesarCipher object at 0x106caaee0, shift +3>”** where 0x106caaee0 is replaced by the actual memory location of object, and +3 with the actual shift number of this caesarCipher instance. use `hex(id(object))` to get hex address of object.
         - **input:** void
-        - **output:** `string` (in the form **“<caesarCipher object at 0x106caaee0, shift +3>”** where 0x106caaee0 is replaced by the actual memory location of object, and +3 with the actual shift number of this caesarCipher instance.)
+        - **output:** `string`
 
 ### `function main()` (inside `main.py`)
 
-- implement this function in however way you choose, but you must have a menu interface that looks like this (cool ASCII text is optional):
+- implement this function in however way you choose, but you must have a menu interface that looks like this (cool ASCII art is optional):
 
 ```
 user@user-pc caesar % python3 main.py
