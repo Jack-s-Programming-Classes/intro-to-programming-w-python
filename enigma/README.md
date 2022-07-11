@@ -4,6 +4,8 @@
 * [Cipher Machines and Cryptology](https://www.ciphermachinesandcryptology.com/)
 * [Enigma article on Matematik Sider](https://www.matematiksider.dk/enigma_eng.html)
 * [YouTube video by Jared Owen - "How did the Enigma Machine work?"](https://www.youtube.com/watch?v=ybkkiGtJmkM&ab_channel=JaredOwen)
+* [Cryptography StackExchange - "Enigma ring settings - is the relative location of the turnover all that matters?"](https://crypto.stackexchange.com/questions/86371/enigma-ring-settings-is-the-relative-location-of-the-turnover-all-that-matters)
+* [Cryptography StackExchange - "Why does the Bombe not consider the Ringstellung when determining stecker pairs?"](https://crypto.stackexchange.com/questions/81319/why-does-the-bombe-not-consider-the-ringstellung-when-determining-stecker-pairs)
 
 ## Miscellaneous
 
